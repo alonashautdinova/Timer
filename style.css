@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f6f8fb;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10% 30%;
+  gap: 4vh;
+}
+
+.time-buttons {
+  display: flex;
+  gap: 2vh;
+}
+.time {
+  color: #777777;
+  font-size: 100px;
+}
+
+.buttons {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+button {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  font-size: large;
+}
+.start {
+  color: #aaaaaa;
+  background-color: white;
+  border: 1px #aaaaaa solid;
+}
+.start:active {
+  background-color: gray;
+  color: white;
+}
+.reset {
+  color: white;
+  background-color: #4787d1;
+  border: none;
+}
+.reset:active {
+  color: white;
+  background-color: #184170;
+}
+
+.edit-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2vh;
+}
+
+.editLabel {
+  font-size: small;
+}
+#submitBtn {
+  padding: 0 0.5vh;
+}
